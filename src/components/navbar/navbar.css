@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  padding: 2rem 6rem;
+  margin-top: 3rem;
+}
+
+.navbar_links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-links-container {
+  display: flex;
+}
+
+.navbar-links-container p {
+  font-family: var(--font-family);
+  font-size: 2em;
+  margin: 0 3rem;
+  cursor: pointer;
+}
